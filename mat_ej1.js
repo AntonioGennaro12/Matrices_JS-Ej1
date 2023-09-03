@@ -20,7 +20,7 @@ console.table(matrizChar);
 */
 // Ejercicio 2 matrices con números
 
-const NRO_FILAS     = 10;
+const NRO_FILAS     = 5;
 const NRO_COLUMNAS  = 10;
 const MAX_ELEM      = 100;
 const matrizNum     = [];
