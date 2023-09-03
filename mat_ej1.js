@@ -20,9 +20,10 @@ console.table(matrizChar);
 */
 // Ejercicio 2 matrices con números
 
-const NRO_FILAS     = 16;
+const MAX_ELEM      = 200;
 const NRO_COLUMNAS  = 10;
-const MAX_ELEM      = 151;
+const NRO_FILAS     = Math.ceil(MAX_ELEM / NRO_COLUMNAS);
+
 const matrizNum     = [];
 let   numero        = 1;
 
